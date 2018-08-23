@@ -1,0 +1,63 @@
+.giveRed {
+  background-color: #ffaba4;
+}
+.giveBlue {
+  background-color: #a5c7ff;
+}
+.giveGreen {
+  background-color: #b7ffc1;
+}
+
+body {
+  color: white;
+  background-color: black;
+}
+
+.button-player-1-life {
+  text-align: center;
+  padding: 20% 0%;
+  margin: 10% 0%;
+  height: 100%;
+  font-size: 22px;
+  border: 1px solid white;
+  border-radius: 10%;
+}
+.button-player-2-life {
+  text-align: center;
+  padding: 20% 0%;
+  margin: 10% 0%;
+  height: 100%;
+  font-size: 22px;
+  border: 1px solid white;
+  border-radius: 10%;
+}
+.button-central-icon {
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 10%;
+}
+
+/* The Modal (background) */
+#settings-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 10vw; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80vw;
+    color: black;
+}

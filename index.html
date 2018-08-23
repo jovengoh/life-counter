@@ -1,0 +1,80 @@
+<!doctype html>
+
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width"/>
+  <title>Project</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.color.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</head>
+
+<body>
+  <div class="container-fluid display-player-1" style="height:45vh;">
+    <div class="row align-items-center justify-content-center" style="height:100%;">
+      <div class="col-9">
+        <!-- <div class="display-player-1-life" style="text-align:center; transform:rotate(180deg); padding-bottom: 45%; font-size:96px;"> -->
+        <div class="display-player-1-life" style="text-align:center; transform:rotate(180deg); font-size:96px;">
+          10
+        </div>
+      </div>
+      <div class="col-3" style="background-color:black;">
+        <div style="transform: rotate(180deg);">
+          <div class="button-player-1-life" data-life="-2">-2</div>
+        </div>
+        <div style="transform: rotate(180deg);">
+          <div class="button-player-1-life" data-life="-1">-1</div>
+        </div>
+        <div style="transform: rotate(180deg);">
+          <div class="button-player-1-life" data-life="1">+1</div>
+        </div>
+        <div style="transform: rotate(180deg);">
+          <div class="button-player-1-life" data-life="2">+2</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid row align-items-center justify-content-center" style="height:10vh;">
+    <div class="col-2" style="padding:0px 5px;"><img src="img/icon-gear.png" class="img-fluid button-central-icon" data-button="settings">
+      <div id="settings-modal">
+        <div class="modal-content">
+          <span style="text-align:center; font-size: 18px;"><b>Settings</b></span><br>
+          Work in progress.<br>Thank you for using this app.
+          <br><br><span style="color:grey; font-size: 8px;">Tap anywhere else to close this window.<br><br>Icons obtained from the following Flaticon creators:<br>Egor Rumyantsev, Freepik, and Pixel Perfect.</span>
+        </div>
+      </div>
+    </div>
+    <div class="col-1"></div>
+    <div class="col-2" style="padding:0px 5px;"><img src="img/icon-refresh.png" class="img-fluid button-central-icon" data-button="reset"></div>
+    <div class="col-1"></div>
+    <div class="col-2" style="padding:0px 5px;"><img src="img/icon-random2.png" class="img-fluid button-central-icon" data-button="turn"></div>
+  </div>
+  <div class="container-fluid display-player-2" style="height:45vh;">
+    <div class="row row align-items-center justify-content-center" style="height:100%;">
+      <div class="col-9">
+        <div class="display-player-2-life" style="text-align:center; font-size:96px;">
+          10
+        </div>
+      </div>
+      <div class="col-3" style="background-color:black;">
+        <div>
+          <div class="button-player-2-life" data-life="2">+2</div>
+        </div>
+        <div>
+          <div class="button-player-2-life" data-life="1">+1</div>
+        </div>
+        <div>
+          <div class="button-player-2-life" data-life="-1">-1</div>
+        </div>
+        <div>
+          <div class="button-player-2-life" data-life="-2">-2</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
